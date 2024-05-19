@@ -12,11 +12,11 @@ function App() {
         <Square value={squares[1]}/>
         <Square value={squares[2]}/>
       </div>
-      <div className='flex'>
+      {/* <div className='flex'>
         <Square value={squares[3]}/> 
         <Square value={squares[4]}/>
         <Square value={squares[5]}/>
-      </div>
+      </div> */}
       {/* <div className='flex'>
         <Square value={squares[6]}/> 
         <Square value={squares[7]}/>
