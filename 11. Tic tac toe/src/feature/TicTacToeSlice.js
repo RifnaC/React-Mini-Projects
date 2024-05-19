@@ -7,7 +7,7 @@ export const ticTacToeSlice = createSlice({
     },
     reducers: {
         isNextPlayer: (state) => {
-            state.value = [...state.value];
+            state.value = [...state.value.length % 2 === 0 ? "X" : "O"]
         },
     },
 });
