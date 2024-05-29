@@ -12,8 +12,6 @@ import useCurrencyInfo from './hooks/useCurrencyInfo';
   const currencyInfo = useCurrencyInfo(from);
   const options = Object.keys(currencyInfo);
 
-  console.log("options:", Object.keys(currencyInfo));
-
 
   const swap = () =>{
     setFrom(to)
