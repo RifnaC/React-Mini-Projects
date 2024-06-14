@@ -5,14 +5,12 @@ import { datas } from './data/initialData'
 
 function App() {
   return (
-    <>
-      <Carousel className="rounded-xl flex bg-gray-800 m-5 h-52 ">
-        {datas.map((data) =>  <Card key={data.id} name={data.first_name} email={data.email} gender={data.gender} /> 
+    <div className='flex justify-center items-center h-screen'>
+      <Carousel className="rounded-xl bg-hero object-cover">
+        {datas.map((data) => <Card key={data.id} first_name={data.first_name} last_name={data.last_name} email={data.email} gender={data.gender} ip_address={data.ip_address} />
         )}
-
       </Carousel>
-
-    </>
+    </div>
   )
 }
 
