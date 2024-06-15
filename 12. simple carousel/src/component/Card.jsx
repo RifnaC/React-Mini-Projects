@@ -12,5 +12,4 @@ const Card = ({ first_name, last_name, email, gender, ip_address}) => {
           </div>
     )
 }
-
 export default Card
